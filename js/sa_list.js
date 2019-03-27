@@ -57,7 +57,7 @@ $(function(){
 	// 处理
 	function myHandel(){
 		// 消息点击
-		$("#studyAbroad").on("click",".mylist-item",function(ele){
+		$("#sa_list").on("click",".news-list",function(ele){
 			var id = $(this).attr("data-id");
 			//跳转页面
 			window.location.href = 'sa_detail.html?id='+id;
