@@ -121,4 +121,43 @@
 	font-size: 14px;
 	text-align: right;
 }
-
+/*详情*/
+#sa_detail .bg-blue{
+	background-color: #3CAAEF;
+}
+#sa_detail .bg-orange{
+	background-color: #f76f35;
+}
+#sa_detail .bg-green{
+	background-color: #50c9a9;
+}
+#sa_detail .bg-yellow{
+	background-color: #f0be5a;
+}
+#sa_detail #sa_typee{
+    height: 40px;
+	margin: 0 -14px;
+    line-height: 40px;
+    font-size: 16px;
+    text-align: center;
+    font-family: Arial;
+    color: #fff;
+}
+#sa_detail #sa_line{
+    height: 4px;
+    margin: 8px -14px 20px;
+}
+#sa_detail #sa_detail_div{
+	height: 600px;
+	overflow-y: auto;
+}
+#sa_detail #sa_detail_title{
+    text-align: center;
+	font-weight: 600;
+}
+#sa_detail #sa_detail_date{
+    padding-top: 4px;
+    text-align: center;
+    font-size: 12px;
+    color: #888;
+}
