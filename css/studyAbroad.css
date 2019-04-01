@@ -122,6 +122,9 @@
 	text-align: right;
 }
 /*详情*/
+#sa_detail{
+	position: relative;
+}
 #sa_detail .bg-blue{
 	background-color: #3CAAEF;
 }
@@ -135,6 +138,10 @@
 	background-color: #f0be5a;
 }
 #sa_detail #sa_typee{
+	position: fixed;
+    top: 0;
+	left: 0;
+    width: 100%;
     height: 40px;
 	margin: 0 -14px;
     line-height: 40px;
@@ -144,12 +151,21 @@
     color: #fff;
 }
 #sa_detail #sa_line{
+    position: fixed;
+    top: 40px;
+	left: 0;
+    width: 100%;
     height: 4px;
-    margin: 8px -14px 20px;
+    padding: 8px 0 10px;
+    margin: 0 -14px;
+    background-color: #f2f2f2;
+}
+#sa_detail #sa_line1{
+    height: 4px;
+    background-color: #3caaef;
 }
 #sa_detail #sa_detail_div{
-	height: 600px;
-	overflow-y: auto;
+	margin-top: 72px;
 }
 #sa_detail #sa_detail_title{
     text-align: center;
