@@ -12,6 +12,7 @@ $(function(){
 	// 初始化
 	function sa_init(){
 		$.ajax({
+			//url: 'json/studyAbroad.json',
 			url: 'json/studyAbroad.json',
 			type: 'GET',
 			data: null,

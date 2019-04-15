@@ -38,7 +38,7 @@ $(function(){
 					}
 					$("#sa_typee").html(sa_typee);
 					$("#sa_typee").addClass(sa_bg);
-					$("#sa_line").addClass(sa_bg);
+					$("#sa_line1").addClass(sa_bg);
 					//标题
 					$("#sa_detail_title").html(resp.data.title);
 					//日期
