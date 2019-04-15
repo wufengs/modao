@@ -12,7 +12,7 @@
     background-color: #fff;
 }
 #zwgk .zwgk-block .zwgk-block-head{
-	padding: 14px;
+	padding: 20px 14px 8px;
     font-size: 16px;
     font-family: "苹方-简 中黑体";
 	color: #4A4A4A;
@@ -38,4 +38,15 @@
     width: 0;
     height: 10px;
     border-right: 1.2px solid #979797;
+}
+#zwgk .zwgk-block .right-arrow{
+	display: block;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    width: 6px;
+    height: 6px;
+    border: 1px solid #999;
+    border-width: 1px 1px 0 0;
+    transform: rotate(45deg);
 }
